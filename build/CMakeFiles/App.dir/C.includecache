@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/artem/Рабочий стол/proto_translate_structur/src/main.c
+stdio.h
+/home/artem/Рабочий стол/proto_translate_structur/src/stdio.h
+

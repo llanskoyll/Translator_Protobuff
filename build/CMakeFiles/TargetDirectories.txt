@@ -1,0 +1,3 @@
+/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles/rebuild_cache.dir
+/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles/edit_cache.dir
+/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles/App.dir

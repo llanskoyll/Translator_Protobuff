@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/artem/Рабочий стол/proto_translate_structur/src/main.c
+/home/artem/Рабочий стол/proto_translate_structur/include/incilDate.h
 stdio.h
-/home/artem/Рабочий стол/proto_translate_structur/src/stdio.h
+-
+
+/home/artem/Рабочий стол/proto_translate_structur/src/incilDate.c
+../include/incilDate.h
+/home/artem/Рабочий стол/proto_translate_structur/include/incilDate.h
 

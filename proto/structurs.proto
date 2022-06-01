@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+message config_ahsm_t {
+    
+    optional uint32 version = 1;
+    optional string name = 2;
+    optional uint32 token_type = 3;
+    optional uint32 com_mode = 4;
+    optional uint32 com_boot = 5;
+    optional uint32 dumb_terminal = 6;
+    optional uint32 force_optrom = 7;
+    optional uint32 guest_login = 8;
+    optional uint32 fw_download = 9;
+}

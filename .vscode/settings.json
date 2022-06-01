@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "protobuf-c.h": "c",
+        "convert_structur_to_protobuff.h": "c",
+        "convert_protobuff_to_structur.h": "c"
+    }
+}

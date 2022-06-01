@@ -123,6 +123,114 @@ App/fast:
 	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/build
 .PHONY : App/fast
 
+proto/structurs.pb-c.o: proto/structurs.pb-c.c.o
+
+.PHONY : proto/structurs.pb-c.o
+
+# target to build an object file
+proto/structurs.pb-c.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs.pb-c.c.o
+.PHONY : proto/structurs.pb-c.c.o
+
+proto/structurs.pb-c.i: proto/structurs.pb-c.c.i
+
+.PHONY : proto/structurs.pb-c.i
+
+# target to preprocess a source file
+proto/structurs.pb-c.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs.pb-c.c.i
+.PHONY : proto/structurs.pb-c.c.i
+
+proto/structurs.pb-c.s: proto/structurs.pb-c.c.s
+
+.PHONY : proto/structurs.pb-c.s
+
+# target to generate assembly for a file
+proto/structurs.pb-c.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs.pb-c.c.s
+.PHONY : proto/structurs.pb-c.c.s
+
+src/convert_protobuff_to_structur.o: src/convert_protobuff_to_structur.c.o
+
+.PHONY : src/convert_protobuff_to_structur.o
+
+# target to build an object file
+src/convert_protobuff_to_structur.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o
+.PHONY : src/convert_protobuff_to_structur.c.o
+
+src/convert_protobuff_to_structur.i: src/convert_protobuff_to_structur.c.i
+
+.PHONY : src/convert_protobuff_to_structur.i
+
+# target to preprocess a source file
+src/convert_protobuff_to_structur.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.i
+.PHONY : src/convert_protobuff_to_structur.c.i
+
+src/convert_protobuff_to_structur.s: src/convert_protobuff_to_structur.c.s
+
+.PHONY : src/convert_protobuff_to_structur.s
+
+# target to generate assembly for a file
+src/convert_protobuff_to_structur.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.s
+.PHONY : src/convert_protobuff_to_structur.c.s
+
+src/convert_structur_to_protobuff.o: src/convert_structur_to_protobuff.c.o
+
+.PHONY : src/convert_structur_to_protobuff.o
+
+# target to build an object file
+src/convert_structur_to_protobuff.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o
+.PHONY : src/convert_structur_to_protobuff.c.o
+
+src/convert_structur_to_protobuff.i: src/convert_structur_to_protobuff.c.i
+
+.PHONY : src/convert_structur_to_protobuff.i
+
+# target to preprocess a source file
+src/convert_structur_to_protobuff.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.i
+.PHONY : src/convert_structur_to_protobuff.c.i
+
+src/convert_structur_to_protobuff.s: src/convert_structur_to_protobuff.c.s
+
+.PHONY : src/convert_structur_to_protobuff.s
+
+# target to generate assembly for a file
+src/convert_structur_to_protobuff.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.s
+.PHONY : src/convert_structur_to_protobuff.c.s
+
+src/incilDate.o: src/incilDate.c.o
+
+.PHONY : src/incilDate.o
+
+# target to build an object file
+src/incilDate.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/incilDate.c.o
+.PHONY : src/incilDate.c.o
+
+src/incilDate.i: src/incilDate.c.i
+
+.PHONY : src/incilDate.i
+
+# target to preprocess a source file
+src/incilDate.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/incilDate.c.i
+.PHONY : src/incilDate.c.i
+
+src/incilDate.s: src/incilDate.c.s
+
+.PHONY : src/incilDate.s
+
+# target to generate assembly for a file
+src/incilDate.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/incilDate.c.s
+.PHONY : src/incilDate.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -150,6 +258,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/protobuf-c.o: src/protobuf-c.c.o
+
+.PHONY : src/protobuf-c.o
+
+# target to build an object file
+src/protobuf-c.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protobuf-c.c.o
+.PHONY : src/protobuf-c.c.o
+
+src/protobuf-c.i: src/protobuf-c.c.i
+
+.PHONY : src/protobuf-c.i
+
+# target to preprocess a source file
+src/protobuf-c.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protobuf-c.c.i
+.PHONY : src/protobuf-c.c.i
+
+src/protobuf-c.s: src/protobuf-c.c.s
+
+.PHONY : src/protobuf-c.s
+
+# target to generate assembly for a file
+src/protobuf-c.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protobuf-c.c.s
+.PHONY : src/protobuf-c.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... App"
+	@echo "... proto/structurs.pb-c.o"
+	@echo "... proto/structurs.pb-c.i"
+	@echo "... proto/structurs.pb-c.s"
+	@echo "... src/convert_protobuff_to_structur.o"
+	@echo "... src/convert_protobuff_to_structur.i"
+	@echo "... src/convert_protobuff_to_structur.s"
+	@echo "... src/convert_structur_to_protobuff.o"
+	@echo "... src/convert_structur_to_protobuff.i"
+	@echo "... src/convert_structur_to_protobuff.s"
+	@echo "... src/incilDate.o"
+	@echo "... src/incilDate.i"
+	@echo "... src/incilDate.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/protobuf-c.o"
+	@echo "... src/protobuf-c.i"
+	@echo "... src/protobuf-c.s"
 .PHONY : help
 
 

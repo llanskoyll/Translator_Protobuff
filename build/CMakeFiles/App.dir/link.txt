@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/App.dir/src/main.c.o  -o App 
+/usr/bin/cc    CMakeFiles/App.dir/proto/structurs.pb-c.c.o CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o CMakeFiles/App.dir/src/incilDate.c.o CMakeFiles/App.dir/src/main.c.o CMakeFiles/App.dir/src/protobuf-c.c.o  -o App 

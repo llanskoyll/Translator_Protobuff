@@ -57,9 +57,61 @@ include CMakeFiles/App.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/App.dir/flags.make
 
+CMakeFiles/App.dir/proto/structurs.pb-c.c.o: CMakeFiles/App.dir/flags.make
+CMakeFiles/App.dir/proto/structurs.pb-c.c.o: ../proto/structurs.pb-c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/App.dir/proto/structurs.pb-c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/proto/structurs.pb-c.c.o   -c "/home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.c"
+
+CMakeFiles/App.dir/proto/structurs.pb-c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/App.dir/proto/structurs.pb-c.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.c" > CMakeFiles/App.dir/proto/structurs.pb-c.c.i
+
+CMakeFiles/App.dir/proto/structurs.pb-c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/App.dir/proto/structurs.pb-c.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.c" -o CMakeFiles/App.dir/proto/structurs.pb-c.c.s
+
+CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o: CMakeFiles/App.dir/flags.make
+CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o: ../src/convert_protobuff_to_structur.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o   -c "/home/artem/Рабочий стол/proto_translate_structur/src/convert_protobuff_to_structur.c"
+
+CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/artem/Рабочий стол/proto_translate_structur/src/convert_protobuff_to_structur.c" > CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.i
+
+CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/artem/Рабочий стол/proto_translate_structur/src/convert_protobuff_to_structur.c" -o CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.s
+
+CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: CMakeFiles/App.dir/flags.make
+CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: ../src/convert_structur_to_protobuff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o   -c "/home/artem/Рабочий стол/proto_translate_structur/src/convert_structur_to_protobuff.c"
+
+CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/artem/Рабочий стол/proto_translate_structur/src/convert_structur_to_protobuff.c" > CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.i
+
+CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/artem/Рабочий стол/proto_translate_structur/src/convert_structur_to_protobuff.c" -o CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.s
+
+CMakeFiles/App.dir/src/incilDate.c.o: CMakeFiles/App.dir/flags.make
+CMakeFiles/App.dir/src/incilDate.c.o: ../src/incilDate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/App.dir/src/incilDate.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/src/incilDate.c.o   -c "/home/artem/Рабочий стол/proto_translate_structur/src/incilDate.c"
+
+CMakeFiles/App.dir/src/incilDate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/App.dir/src/incilDate.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/artem/Рабочий стол/proto_translate_structur/src/incilDate.c" > CMakeFiles/App.dir/src/incilDate.c.i
+
+CMakeFiles/App.dir/src/incilDate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/App.dir/src/incilDate.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/artem/Рабочий стол/proto_translate_structur/src/incilDate.c" -o CMakeFiles/App.dir/src/incilDate.c.s
+
 CMakeFiles/App.dir/src/main.c.o: CMakeFiles/App.dir/flags.make
 CMakeFiles/App.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/App.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/App.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/src/main.c.o   -c "/home/artem/Рабочий стол/proto_translate_structur/src/main.c"
 
 CMakeFiles/App.dir/src/main.c.i: cmake_force
@@ -70,17 +122,40 @@ CMakeFiles/App.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/App.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/artem/Рабочий стол/proto_translate_structur/src/main.c" -o CMakeFiles/App.dir/src/main.c.s
 
+CMakeFiles/App.dir/src/protobuf-c.c.o: CMakeFiles/App.dir/flags.make
+CMakeFiles/App.dir/src/protobuf-c.c.o: ../src/protobuf-c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/App.dir/src/protobuf-c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/src/protobuf-c.c.o   -c "/home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.c"
+
+CMakeFiles/App.dir/src/protobuf-c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/App.dir/src/protobuf-c.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.c" > CMakeFiles/App.dir/src/protobuf-c.c.i
+
+CMakeFiles/App.dir/src/protobuf-c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/App.dir/src/protobuf-c.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.c" -o CMakeFiles/App.dir/src/protobuf-c.c.s
+
 # Object files for target App
 App_OBJECTS = \
-"CMakeFiles/App.dir/src/main.c.o"
+"CMakeFiles/App.dir/proto/structurs.pb-c.c.o" \
+"CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o" \
+"CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o" \
+"CMakeFiles/App.dir/src/incilDate.c.o" \
+"CMakeFiles/App.dir/src/main.c.o" \
+"CMakeFiles/App.dir/src/protobuf-c.c.o"
 
 # External object files for target App
 App_EXTERNAL_OBJECTS =
 
+App: CMakeFiles/App.dir/proto/structurs.pb-c.c.o
+App: CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o
+App: CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o
+App: CMakeFiles/App.dir/src/incilDate.c.o
 App: CMakeFiles/App.dir/src/main.c.o
+App: CMakeFiles/App.dir/src/protobuf-c.c.o
 App: CMakeFiles/App.dir/build.make
 App: CMakeFiles/App.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable App"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/artem/Рабочий стол/proto_translate_structur/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable App"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

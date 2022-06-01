@@ -9,8 +9,28 @@
 /home/artem/Рабочий стол/proto_translate_structur/include/incilDate.h
 stdio.h
 -
+stdlib.h
+-
+inttypes.h
+-
+../proto/structurs.pb-c.h
+/home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.h
+
+/home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.h
+../src/protobuf-c.h
+/home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.h
 
 /home/artem/Рабочий стол/proto_translate_structur/src/incilDate.c
 ../include/incilDate.h
 /home/artem/Рабочий стол/proto_translate_structur/include/incilDate.h
+
+/home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.h
+assert.h
+-
+limits.h
+-
+stddef.h
+-
+stdint.h
+-
 

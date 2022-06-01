@@ -12,12 +12,16 @@ CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: ../include/convert_str
 CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: ../src/convert_structur_to_protobuff.c
 
 CMakeFiles/App.dir/src/incilDate.c.o: ../include/incilDate.h
+CMakeFiles/App.dir/src/incilDate.c.o: ../proto/structurs.pb-c.h
 CMakeFiles/App.dir/src/incilDate.c.o: ../src/incilDate.c
+CMakeFiles/App.dir/src/incilDate.c.o: ../src/protobuf-c.h
 
 CMakeFiles/App.dir/src/main.c.o: ../include/convert_protobuff_to_structur.h
 CMakeFiles/App.dir/src/main.c.o: ../include/convert_structur_to_protobuff.h
 CMakeFiles/App.dir/src/main.c.o: ../include/incilDate.h
+CMakeFiles/App.dir/src/main.c.o: ../proto/structurs.pb-c.h
 CMakeFiles/App.dir/src/main.c.o: ../src/main.c
+CMakeFiles/App.dir/src/main.c.o: ../src/protobuf-c.h
 
 CMakeFiles/App.dir/src/protobuf-c.c.o: ../src/protobuf-c.c
 CMakeFiles/App.dir/src/protobuf-c.c.o: ../src/protobuf-c.h

@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/artem/Рабочий стол/proto_translate_structur/include/convert_protobuff_to_structur.h
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
+structurs.h
+/home/artem/Рабочий стол/proto_translate_structur/include/structurs.h
+../proto/structurs.pb-c.h
+/home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.h
+
+/home/artem/Рабочий стол/proto_translate_structur/include/convert_structur_to_protobuff.h
+stdio.h
+-
+
 /home/artem/Рабочий стол/proto_translate_structur/include/incilDate.h
 stdio.h
 -
@@ -16,13 +32,31 @@ inttypes.h
 ../proto/structurs.pb-c.h
 /home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.h
 
+/home/artem/Рабочий стол/proto_translate_structur/include/structurs.h
+
 /home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.h
 ../src/protobuf-c.h
 /home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.h
 
-/home/artem/Рабочий стол/proto_translate_structur/src/incilDate.c
+/home/artem/Рабочий стол/proto_translate_structur/src/convert_protobuff_to_structur.c
+../include/convert_protobuff_to_structur.h
+/home/artem/Рабочий стол/proto_translate_structur/include/convert_protobuff_to_structur.h
+
+/home/artem/Рабочий стол/proto_translate_structur/src/main.c
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
+../include/convert_protobuff_to_structur.h
+/home/artem/Рабочий стол/proto_translate_structur/include/convert_protobuff_to_structur.h
+../include/convert_structur_to_protobuff.h
+/home/artem/Рабочий стол/proto_translate_structur/include/convert_structur_to_protobuff.h
 ../include/incilDate.h
 /home/artem/Рабочий стол/proto_translate_structur/include/incilDate.h
+../include/structurs.h
+/home/artem/Рабочий стол/proto_translate_structur/include/structurs.h
 
 /home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.h
 assert.h

@@ -1,12 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
 
 #include "../include/convert_protobuff_to_structur.h"
 #include "../include/convert_structur_to_protobuff.h"
 #include "../include/incilDate.h"
+#include "../include/structurs.h"
+
 
 int main() 
 {
     int change;
+
+    config_ahsm_t config;
+    config.com_boot = 5;
 
     do {
 
@@ -20,7 +27,7 @@ int main()
         switch (change) {
 
         case 1:
-            convert_protobuff_to_structur();
+            convert_protobuff_to_structur(&config);
             break;
 
         case 2:

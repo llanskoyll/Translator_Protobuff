@@ -6,5 +6,6 @@
         "incildate.h": "c",
         "stdlib.h": "c",
         "inttypes.h": "c"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

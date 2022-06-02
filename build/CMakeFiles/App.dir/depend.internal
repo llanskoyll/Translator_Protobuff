@@ -13,7 +13,10 @@ CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o
  /home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.h
 CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o
  /home/artem/Рабочий стол/proto_translate_structur/include/convert_structur_to_protobuff.h
+ /home/artem/Рабочий стол/proto_translate_structur/include/structurs.h
+ /home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.h
  /home/artem/Рабочий стол/proto_translate_structur/src/convert_structur_to_protobuff.c
+ /home/artem/Рабочий стол/proto_translate_structur/src/protobuf-c.h
 CMakeFiles/App.dir/src/incilDate.c.o
  /home/artem/Рабочий стол/proto_translate_structur/include/incilDate.h
  /home/artem/Рабочий стол/proto_translate_structur/proto/structurs.pb-c.h

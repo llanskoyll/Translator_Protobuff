@@ -12,7 +12,10 @@ CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o: ../src/convert_protobu
 CMakeFiles/App.dir/src/convert_protobuff_to_structur.c.o: ../src/protobuf-c.h
 
 CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: ../include/convert_structur_to_protobuff.h
+CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: ../include/structurs.h
+CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: ../proto/structurs.pb-c.h
 CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: ../src/convert_structur_to_protobuff.c
+CMakeFiles/App.dir/src/convert_structur_to_protobuff.c.o: ../src/protobuf-c.h
 
 CMakeFiles/App.dir/src/incilDate.c.o: ../include/incilDate.h
 CMakeFiles/App.dir/src/incilDate.c.o: ../proto/structurs.pb-c.h

@@ -12,8 +12,7 @@ int main()
 {
     int change;
 
-    config_ahsm_t config;
-    config.com_boot = 5;
+    config_ahsm_t config_ahsm_t;
 
     do {
 
@@ -27,11 +26,11 @@ int main()
         switch (change) {
 
         case 1:
-            convert_protobuff_to_structur(&config);
+            convert_protobuff_to_structur(&config_ahsm_t);
             break;
 
         case 2:
-            convert_structur_to_protobuff();
+            convert_structur_to_protobuff(&config_ahsm_t);
             break;
 
         case 3:
@@ -46,7 +45,7 @@ int main()
             break;
         }
 
-        printf("\t\n");
+        printf("\r\n");
 
     } while(change != 0);
 }

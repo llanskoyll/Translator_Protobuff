@@ -5,7 +5,9 @@
         "convert_protobuff_to_structur.h": "c",
         "incildate.h": "c",
         "stdlib.h": "c",
-        "inttypes.h": "c"
+        "inttypes.h": "c",
+        "typeinfo": "c",
+        "structurs.pb-c.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

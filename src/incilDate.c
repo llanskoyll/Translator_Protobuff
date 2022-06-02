@@ -2,7 +2,7 @@
 
 void incilDate() {
 
-     void* buffer;
+    void* buffer;
     size_t len = 0;
     size_t wlen = 0;
     FILE *fp;
@@ -28,15 +28,15 @@ void incilDate() {
     config->has_token_type = 1;
     config->has_version = 1;
     
-    // заполнение полец
-    config->com_boot = 9;
-    config->com_mode = 9;
-    config->dumb_terminal = 9;
-    config->force_optrom = 9;
-    config->fw_download = 9;
-    config->guest_login = 9;
-    config->token_type = 9;
-    config->version = 9;
+    // заполнение полеЙ
+    config->com_boot = 5;
+    config->com_mode = 5;
+    config->dumb_terminal = 5;
+    config->force_optrom = 5;
+    config->fw_download = 5;
+    config->guest_login = 5;
+    config->token_type = 5;
+    config->version = 5;
     config->name = "testChar";
 
     len = config_ahsm_t__get_packed_size(config);
